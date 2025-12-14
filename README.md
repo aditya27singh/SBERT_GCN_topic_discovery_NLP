@@ -81,3 +81,6 @@ challenges of multimodal embedding fusion.
 
 ### Install dependencies
     pip install -r requirements.txt
+
+## License
+This project is licensed under the MIT license
