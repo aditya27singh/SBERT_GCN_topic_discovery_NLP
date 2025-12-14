@@ -72,23 +72,12 @@ challenges of multimodal embedding fusion.
 git clone https://github.com/aditya27singh/sbert-gcn-topic-discovery-nlp.git
 cd sbert-gcn-topic-discovery-nlp
 
-3. Create and Activate a Virtual Environment (Recommended)
+2. Create a virtual environment
 python -m venv venv
+ a. Windows
+    venv\Scripts\activate
+ b. MacOS/Linux
+    source venv/bin/activate
 
-On Windows:
-venv\Scripts\activate
-
-On macOS / Linux:
-source venv/bin/activate
-
-3. Install Dependencies
+3. Install dependencies
 pip install -r requirements.txt
-
-4. Run the Project
-
-Open the Jupyter notebook located in the `notebook/` directory and run:
-jupyter notebook
-Then open and execute `project.ipynb`.
-
-Note: Expensive steps such as embedding generation and graph processing are precomputed and
-saved. The notebook can be rerun from the embedding stage onward without making live API calls.
