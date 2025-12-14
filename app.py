@@ -79,4 +79,4 @@ st.download_button(
 )
 
 st.markdown("---")
-st.caption("ETH-safe deployment: all results are precomputed, no live model execution.")
+st.caption("All results are precomputed for reproducibility and stability, no live model execution.")
