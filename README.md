@@ -75,9 +75,9 @@ challenges of multimodal embedding fusion.
 ### Create a virtual environment
     python -m venv venv
 ##### Windows
-      venv\Scripts\activate
+    venv\Scripts\activate
 #### MacOS/Linux
-     source venv/bin/activate
+    source venv/bin/activate
 
 ### Install dependencies
     pip install -r requirements.txt
