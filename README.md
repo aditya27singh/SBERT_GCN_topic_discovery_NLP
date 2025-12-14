@@ -69,20 +69,15 @@ challenges of multimodal embedding fusion.
 ## Installation & Setup
 
 ### Clone the Repository
-    bash
     git clone https://github.com/aditya27singh/sbert-gcn-topic-discovery-nlp.git
     cd sbert-gcn-topic-discovery-nlp
 
 ### Create a virtual environment
-    bash
     python -m venv venv
 ##### Windows
-      bash
       venv\Scripts\activate
 #### MacOS/Linux
-     bash
      source venv/bin/activate
 
 ### Install dependencies
-    bash
     pip install -r requirements.txt
